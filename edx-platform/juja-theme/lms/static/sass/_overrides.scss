@@ -1,0 +1,106 @@
+$juja-green: #79d206;
+$juja-dark-green: #099113;
+
+$homepage-bg-image: url('../images/background-home.jpg');
+
+$header-bg: #eeeeee;
+
+.course-tabs {
+	a.active {
+		border-bottom: 4px solid $juja-dark-green !important;
+		color: $juja-dark-green !important;
+	}
+	a:hover, a:focus {
+		border-bottom: 4px solid $juja-green !important;
+		color: $juja-green !important;
+	}
+/*	a:focus {
+		border-bottom: 4px solid $juja-green !important;
+		color: $juja-green !important;
+	}*/
+}
+
+.header-global {
+	border-bottom: 3px solid $juja-green !important;
+}
+
+.wrapper-logo {
+	margin: 0 !important;
+	margin-bottom: 15px !important;
+
+}
+
+.course-search .search-button {
+	border: 2px solid darken($juja-dark-green, 80%) !important;
+	background-color: $juja-dark-green !important;
+}
+
+.course-search .search-input:active, .course-search .search-input:focus {
+	border-color: $juja-green !important;
+}
+
+.discovery-input:active, .discovery-input:focus {
+	border-color: $juja-green !important;
+}
+
+.find-courses .discovery-submit {
+	border: 2px solid darken($juja-dark-green, 80%) !important;
+	background-color: $juja-dark-green !important;
+}
+
+.search-button:hover {
+	background-color: $juja-green !important;
+}
+
+.header-global .nav-global li a:hover {
+	color: $juja-green !important;
+}
+
+.facet-option .discovery-button:focus, .discovery-button:hover {
+	background: $juja-green !important;
+}
+
+.login-button {
+	background: $juja-dark-green !important;
+}
+
+.login-button:hover {
+	background: $juja-green !important;
+}
+
+.nav-btn {
+	border: 1px solid $juja-dark-green;
+	color: $juja-dark-green !important;
+}
+
+.nav-btn:hover, .nav-btn:active, .nav-btn:focus {
+	border: 1px solid $juja-dark-green;
+	color: #ffffff !important;
+	background-color: $juja-green !important;
+}
+
+
+.u-field-link {
+	border: 1px solid $juja-dark-green !important;
+	color: $juja-dark-green !important;
+}
+
+.u-field-link:hover {
+	
+	color: #ffffff !important;
+}
+
+
+$form-bg-color: #aaaaaa;
+$button-color: $juja-dark-green;
+
+$action-primary-bg: $juja-green;
+$action-primary-focused-bg: $juja-dark-green;
+$action-primary-active-bg: $juja-dark-green;
+
+$link-color: $juja-dark-green;
+$link-color-d1: $juja-dark-green;
+$link-hover: $juja-green;
+
+
+$footer-bg: #111111;
