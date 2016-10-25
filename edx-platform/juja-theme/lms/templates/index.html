@@ -17,10 +17,8 @@ from openedx.core.djangolib.markup import HTML, Text
               % if homepage_overlay_html:
                 ${homepage_overlay_html | n, decode.utf8}
               % else:
-                  ## Translators: 'Open edX' is a registered trademark, please keep this untranslated. See http://open.edx.org for more information.
-                  <h1>${Text(_(u"Вас приветствует тренинг-центр JuJa!"))}</h1>
-                  ## Translators: 'Open edX' is a registered trademark, please keep this untranslated. See http://open.edx.org for more information.
-                  <p>${_("Выбирайте курс и приступайте к обучению! ")}</p>
+                  <h1>Вас приветствует тренинг-центр JuJa!</h1>
+                  <p>Выбирайте курс и приступайте к обучению!</p>
               % endif
             </div>
             % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
