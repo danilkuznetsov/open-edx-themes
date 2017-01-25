@@ -14,10 +14,15 @@ $header-bg: #eeeeee;
 		border-bottom: 4px solid $juja-green !important;
 		color: $juja-green !important;
 	}
-/*	a:focus {
-		border-bottom: 4px solid $juja-green !important;
+}
+
+.xmodule_display {
+	a {
+		color: $juja-dark-green !important;
+	}
+	a:hover, a:focus, a:link {
 		color: $juja-green !important;
-	}*/
+	}
 }
 
 .header-global {
